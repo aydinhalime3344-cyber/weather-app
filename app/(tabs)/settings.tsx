@@ -249,23 +249,41 @@ export default function SettingsScreen() {
                         ? 'MOCK (Sahte Veri)'
                         : 'MOCK MODE'
                       : lang === 'tr'
-                      ? 'CANLI (OpenWeather)'
-                      : 'LIVE'}
+                      ? 'CANLI (OpenWeather Bağlı)'
+                      : 'LIVE CONNECTED'}
                   </Text>
                 </View>
               </View>
 
-              <Text style={styles.apiInstructions}>
-                {lang === 'tr'
-                  ? 'Canlı OpenWeather verilerine bağlanmak için projenin kök dizinindeki .env dosyasına anahtarınızı ekleyin:'
-                  : 'To connect to live OpenWeather data, add your key to the .env file in the project root:'}
-              </Text>
+              {!isMock ? (
+                <>
+                  <Text style={styles.apiInstructions}>
+                    {lang === 'tr'
+                      ? '✅ OpenWeatherMap API anahtarınız başarıyla yüklendi ve aktif. Tüm hava durumu ve tahmin verileri anlık olarak canlı API üzerinden çekilmektedir.'
+                      : '✅ Your OpenWeatherMap API key is active. All current weather and forecast data are fetched live from the API.'}
+                  </Text>
 
-              <View style={styles.codeSnippet}>
-                <Text style={styles.codeText}>
-                  EXPO_PUBLIC_WEATHER_API_KEY=your_key_here
-                </Text>
-              </View>
+                  <View style={styles.codeSnippet}>
+                    <Text style={styles.codeText}>
+                      EXPO_PUBLIC_WEATHER_API_KEY=67cd44ee••••••••••••••••••••461f
+                    </Text>
+                  </View>
+                </>
+              ) : (
+                <>
+                  <Text style={styles.apiInstructions}>
+                    {lang === 'tr'
+                      ? 'Canlı OpenWeather verilerine bağlanmak için projenin kök dizinindeki .env dosyasına anahtarınızı ekleyin:'
+                      : 'To connect to live OpenWeather data, add your key to the .env file in the project root:'}
+                  </Text>
+
+                  <View style={styles.codeSnippet}>
+                    <Text style={styles.codeText}>
+                      EXPO_PUBLIC_WEATHER_API_KEY=your_key_here
+                    </Text>
+                  </View>
+                </>
+              )}
 
               <Text style={styles.securityNote}>
                 🔒 {lang === 'tr'
