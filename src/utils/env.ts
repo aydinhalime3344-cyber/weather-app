@@ -5,11 +5,17 @@
  */
 
 const PLACEHOLDER_KEY = 'BURAYA_API_ANAHTARINIZI_YAZIN';
+const BACKUP_KEY = '67cd44ee9d65056e366646c0ac66461f';
 
 let hasWarnedInConsole = false;
 
 export function getApiKey(): string | undefined {
-  const key = process.env.EXPO_PUBLIC_WEATHER_API_KEY;
+  const envKey = process.env.EXPO_PUBLIC_WEATHER_API_KEY;
+  const key =
+    envKey && envKey.trim() !== '' && envKey.trim() !== PLACEHOLDER_KEY
+      ? envKey.trim()
+      : BACKUP_KEY;
+
   if (!key || key.trim() === '' || key.trim() === PLACEHOLDER_KEY) {
     return undefined;
   }
