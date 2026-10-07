@@ -1,0 +1,74 @@
+{
+  "tabs": {
+    "weather": "Hava Durumu",
+    "cities": "Şehirler",
+    "settings": "Ayarlar"
+  },
+  "home": {
+    "loading": "Hava durumu yükleniyor...",
+    "hourlyForecast": "Saatlik Tahmin",
+    "next24Hours": "Önümüzdeki 24 Saat",
+    "dailyForecast": "5 Günlük Tahmin",
+    "tapForDetails": "Detaylar için dokunun",
+    "weatherDetails": "Hava Koşulları Detayları",
+    "lastUpdated": "Son Güncelleme",
+    "now": "ŞİMDİ",
+    "today": "Bugün",
+    "tomorrow": "Yarın",
+    "feelsLike": "Hissedilen",
+    "myLocation": "Mevcut Konumuma Dön"
+  },
+  "details": {
+    "humidity": "NEM",
+    "wind": "RÜZGAR",
+    "pressure": "BASINÇ",
+    "visibility": "GÖRÜŞ MESAFESİ",
+    "clouds": "BULUTLULUK",
+    "uvIndex": "UV ENDEKSİ",
+    "sunCycle": "GÜNEŞ DÖNGÜSÜ",
+    "sunrise": "Doğuş",
+    "sunset": "Batış"
+  },
+  "cities": {
+    "title": "Şehirler ve Konum",
+    "subtitle": "Hava durumunu takip etmek istediğiniz şehri seçin",
+    "searchPlaceholder": "Şehir adı arayın (ör. Ankara, Londra)...",
+    "searchResults": "Arama Sonuçları",
+    "searching": "Şehirler aranıyor...",
+    "myCurrentLocation": "Mevcut Konumum",
+    "autoDetect": "GPS ile otomatik algıla",
+    "quickSelect": "Hızlı Seçim",
+    "favoriteCities": "Favori Şehirler",
+    "noFavorites": "Henüz favori şehir eklemediniz. Yukarıdan arayarak ekleyebilirsiniz."
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "subtitle": "Uygulama tercihlerinizi ve birimlerinizi özelleştirin",
+    "tempUnit": "Sıcaklık Birimi",
+    "windUnit": "Rüzgar Hızı Birimi",
+    "language": "Dil (Language)",
+    "appearance": "Görünüm Teması",
+    "system": "Sistem",
+    "dark": "Koyu",
+    "light": "Açık",
+    "apiKeyStatus": "API Anahtarı Durumu",
+    "currentStatus": "Mevcut Durum:"
+  },
+  "banner": {
+    "apiKeyMissing": "API Anahtarı Eksik",
+    "mockModeActive": "MOCK MODU AKTİF",
+    "addKeyHint": "Lütfen .env dosyasına EXPO_PUBLIC_WEATHER_API_KEY değerini ekleyin. Şu an gerçekçi sahte verilerle çalışılıyor."
+  },
+  "dev": {
+    "title": "Geliştirici Hava Durumu Simülatörü",
+    "day": "Gündüz",
+    "night": "Gece",
+    "clear": "Açık",
+    "clouds": "Bulutlu",
+    "rain": "Yağmur",
+    "storm": "Fırtına",
+    "snow": "Kar",
+    "fog": "Sis",
+    "golden": "Altın Saat"
+  }
+}

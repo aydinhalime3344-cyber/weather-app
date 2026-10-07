@@ -1,0 +1,74 @@
+{
+  "tabs": {
+    "weather": "Weather",
+    "cities": "Cities",
+    "settings": "Settings"
+  },
+  "home": {
+    "loading": "Loading weather data...",
+    "hourlyForecast": "Hourly Forecast",
+    "next24Hours": "Next 24 Hours",
+    "dailyForecast": "5-Day Forecast",
+    "tapForDetails": "Tap for details",
+    "weatherDetails": "Weather Conditions",
+    "lastUpdated": "Last Updated",
+    "now": "NOW",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "feelsLike": "Feels like",
+    "myLocation": "Switch to My Location"
+  },
+  "details": {
+    "humidity": "HUMIDITY",
+    "wind": "WIND",
+    "pressure": "PRESSURE",
+    "visibility": "VISIBILITY",
+    "clouds": "CLOUDS",
+    "uvIndex": "UV INDEX",
+    "sunCycle": "SUN CYCLE",
+    "sunrise": "Sunrise",
+    "sunset": "Sunset"
+  },
+  "cities": {
+    "title": "Cities & Locations",
+    "subtitle": "Choose the city you want to track weather for",
+    "searchPlaceholder": "Search city (e.g. Ankara, London)...",
+    "searchResults": "Search Results",
+    "searching": "Searching cities...",
+    "myCurrentLocation": "My Current Location",
+    "autoDetect": "Auto-detect via GPS",
+    "quickSelect": "Quick Select",
+    "favoriteCities": "Favorite Cities",
+    "noFavorites": "No favorite cities added yet. Search above to add some."
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your preferences and display units",
+    "tempUnit": "Temperature Unit",
+    "windUnit": "Wind Speed Unit",
+    "language": "Language",
+    "appearance": "Appearance Theme",
+    "system": "System",
+    "dark": "Dark",
+    "light": "Light",
+    "apiKeyStatus": "API Key Status",
+    "currentStatus": "Current Status:"
+  },
+  "banner": {
+    "apiKeyMissing": "API Key Missing",
+    "mockModeActive": "MOCK MODE ACTIVE",
+    "addKeyHint": "Please add EXPO_PUBLIC_WEATHER_API_KEY to your .env file. Currently using realistic mock data."
+  },
+  "dev": {
+    "title": "Developer Weather Simulator",
+    "day": "Day",
+    "night": "Night",
+    "clear": "Clear",
+    "clouds": "Clouds",
+    "rain": "Rain",
+    "storm": "Storm",
+    "snow": "Snow",
+    "fog": "Fog",
+    "golden": "Golden Hr"
+  }
+}
